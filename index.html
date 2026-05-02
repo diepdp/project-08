@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -35,16 +35,17 @@
         <script src="./assets/js/scripts.js"></script>
     </head>
     <body>
-        <header id="header"></header>
+        <header id="header" class="header"></header>
         <script>
-            load("#header", "./template/header.html");
+            load("#header", "./templates/header.html");
         </script>
+        <div class="container">
+            <h2>Content</h2>
 
-        <h2>Content</h2>
-
-        <footer id="footer"></footer>
-        <script>
-            load("#footer", "./template/footer.html");
-        </script>
+            <footer id="footer"></footer>
+            <script>
+                load("#footer", "./templates/footer.html");
+            </script>
+        </div>
     </body>
 </html>

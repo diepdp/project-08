@@ -1,0 +1,13 @@
+@use "../abstracts";
+html.dark {
+    --text-color: #fff;
+    --icon-color: brightness(0) saturate(100%) invert(87%) sepia(97%)
+        saturate(13%) hue-rotate(233deg) brightness(105%) contrast(104%);
+
+    --body-bg: #292e39;
+    --header-bg-color: #171c28;
+    --top-act-group-bg-color: #292e39;
+    --top-act-group-shadow: rgba(0, 0, 0, 0.2);
+    --top-act-separate-bg-color: #ededf6;
+    --top-act-avatar-bg-color: rgba(0, 0, 0, 0.08);
+}
