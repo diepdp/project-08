@@ -10,4 +10,10 @@ html.dark {
     --top-act-group-shadow: rgba(0, 0, 0, 0.2);
     --top-act-separate-bg-color: #ededf6;
     --top-act-avatar-bg-color: rgba(0, 0, 0, 0.08);
+
+    //Dropdown
+    --dropdown-bg-color: #2f3441;
+    --dropdown-shadow-color: rgba(23, 28, 40, 0.4);
+    --dropdown-arrow-color: brightness(0) saturate(100%) invert(18%) sepia(17%)
+        saturate(691%) hue-rotate(186deg) brightness(92%) contrast(90%);
 }
